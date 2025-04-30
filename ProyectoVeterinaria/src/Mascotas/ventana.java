@@ -140,5 +140,9 @@ public class ventana extends JFrame implements ActionListener {
 		
 		Imprimir("Dueño\tMascota\tAños\tAnimal");
 		Imprimir(""+ c.getNombre()+"\t"+c.getNombreMas()+"\t"+c.getAños()+"\t"+c.getAnimal());
+		
+		if(c.getAños()<=2) {
+			Imprimir("Cachorro");
+		}
 	}
 }
